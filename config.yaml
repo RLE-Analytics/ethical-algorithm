@@ -22,9 +22,6 @@ params:
     - icon: ti-email
       link: '#'
       name: email
-    - icon: ti-twitter-alt
-      link: '#'
-      name: Twitter
     - icon: ti-github
       link: '#'
       name: GitHub
