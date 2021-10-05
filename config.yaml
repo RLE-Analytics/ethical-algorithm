@@ -65,9 +65,9 @@ Languages:
     params:
       banner:
         bg_image: images/banner.jpg
-        placeholder: Have a question? Just ask here or enter terms
-        subtitle: Find advice and answers from our support team fast or get in touch
-        title: Support Center & Knowledge base
+        placeholder: Search here to learn more about Ethical Algorithms
+        subtitle: Find advice and answers about ethics and algorithms
+        title: Learn More About Ethical Algorithms
       cta:
         button:
           enable: yes
