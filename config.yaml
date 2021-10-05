@@ -33,7 +33,7 @@ params:
   white_color: '#ffffff'
 Languages:
   en:
-    copyright: Copyright &copy; 2021 [Jacob Rozran](www.jakelearnsdatascience.com)
+    copyright: Copyright &copy; 2021 [RLE Analytics](www.rleanalytics.com)
     languageCode: en-us
     languageName: En
     menu:
