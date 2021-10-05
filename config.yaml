@@ -1,0 +1,80 @@
+baseURL: https://www.ethical-algorithm.com
+theme: dot-hugo
+title: Ethical Algorithms
+disableLanguages: []
+googleAnalytics: 'UA-209108193-1'
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+params:
+  author: Jacob Rozran
+  body_color: '#f9f9f9'
+  contact_form_action: '#'
+  description: A place to learn about ethics of algorithms
+  font_family: lato
+  image: images/logo.png
+  light_color: '#f8f9fa'
+  logo: ''
+  logo_white: ''
+  primary_color: '#02007e'
+  social:
+    - icon: ti-email
+      link: '#'
+      name: email
+    - icon: ti-twitter-alt
+      link: '#'
+      name: Twitter
+    - icon: ti-github
+      link: '#'
+      name: GitHub
+  text_color: '#636363'
+  text_color_dark: '#242738'
+  white_color: '#ffffff'
+Languages:
+  en:
+    copyright: Copyright &copy; 2021 [Jacob Rozran](www.jakelearnsdatascience.com)
+    languageCode: en-us
+    languageName: En
+    menu:
+      main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Faq
+          url: faq
+          weight: 2
+        - name: contact
+          url: contact
+          weight: 3
+        - hasChildren: yes
+          name: docs
+          weight: 4
+        - name: Installation
+          parent: docs
+          url: installation
+          weight: 1
+        - name: Billing and Pricing
+          parent: docs
+          url: billing-pricing
+          weight: 2
+        - name: Features
+          parent: docs
+          url: features
+          weight: 3
+    params:
+      banner:
+        bg_image: images/banner.jpg
+        placeholder: Have a question? Just ask here or enter terms
+        subtitle: Find advice and answers from our support team fast or get in touch
+        title: Support Center & Knowledge base
+      cta:
+        button:
+          enable: yes
+          label: contact us
+          link: contact
+        content: Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor.
+          Suspendisse tincidunt consequat quam.
+        enable: yes
+        title: Didn't find an answer to your question?
+    weight: 1
