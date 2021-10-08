@@ -14,10 +14,10 @@ params:
   description: A place to learn about ethics of algorithms
   font_family: lato
   image: images/logo.png
-  light_color: '#9cacbf'
+  light_color: '#9bcfe0'
   logo: ''
   logo_white: ''
-  primary_color: '#012e67'
+  primary_color: '#e76f3d'
   social:
     - icon: ti-email
       link: '#'
