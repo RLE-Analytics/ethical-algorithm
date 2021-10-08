@@ -17,7 +17,7 @@ params:
   light_color: '#9bcfe0'
   logo: ''
   logo_white: ''
-  primary_color: '#d1dcde'
+  primary_color: '#04323a'
   social:
     - icon: ti-email
       link: '#'
