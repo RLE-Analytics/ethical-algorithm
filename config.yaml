@@ -61,7 +61,7 @@ Languages:
           weight: 3
     params:
       banner:
-        bg_image: images/banner.jpg
+        bg_image: images/banner_plot.png
         placeholder: Search here to learn more about Ethical Algorithms
         subtitle: Find advice and answers about ethics and algorithms
         title: Learn More About Ethical Algorithms
