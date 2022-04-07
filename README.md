@@ -2,9 +2,9 @@
 
 ## Brainstorming Questions
 
-Question: What are we talking about? 
+Question: What are we talking about?  
 Answer: Building products to help identify ethical and fairness issues within 
-algorithms.
+algorithms.  
 More thoughts: 
 
 1. This is a problem of transparency. 
@@ -13,14 +13,14 @@ More thoughts:
 4. "Ethical" and "fair" are context specific.
 5. "Ethical" and "fair" can be thought of as counter to "profit."
 
-Question: Can an algorithm be more transparent and still be effective?
-Answer: I'm not sure. 
-More thoughts: What does it mean to be transparent in an algorithm?
+Question: Can an algorithm be more transparent and still be effective?  
+Answer: I'm not sure.  
+More thoughts: What does it mean to be transparent in an algorithm?  
 
 ## Product Idea Figured Out?
 
-Question: What does it mean to be transparent in an algorithm?
-Answer: Identifying the following:
+Question: What does it mean to be transparent in an algorithm?  
+Answer: Identifying the following:  
 
 0. What is the purpose of the algorithm?
 1. How do you define fairness in context of your business and/or application?
@@ -42,7 +42,7 @@ fairness target?
 
 Challenges: This is a lot to ask to be answered, and likely why it isn't a part 
 of business. How can this be streamlined and automated? This is the business 
-value... 
+value...  
 
 ## What would the best solution look like? 
 
