@@ -60,3 +60,69 @@ and fairness target and offers the results and model
 6. Final model chosen gets a certification
 7. Site provides a "why did I get this decision" module
 
+### Data Scientist builds a model
+
+Expect that this happens in R or python (really python). Plan to build for those 
+options first.
+
+Questions: 
+
+1. Are there others? (there def are, but just need to prioritize)
+
+### Uploads training and test data used
+
+#### Why?
+
+This is a simple thing, but legal thing. Functionality could be FTP (like used 
+at Socure). The difference being that I don't want to keep the data longer than 
+the test (I think). 
+
+Questions: 
+
+1. What legal concerns are there here? 
+2. How do I ensure security?  
+
+Needs (gaps in my abilities): 
+
+1. Legal expertise on data transfer  
+2. Security expertise on data transfer  
+3. Engineering expertise on data transfer  
+
+#### What happens?
+
+1. Do an EDA on each file  
+  a. What data is missing?  
+  b. What are the data summaries?  
+  c. Are there data points that might have potential for bias (address, name, 
+  DOB, etc)?  
+  d. Are there obvious holes in the data (no old people or black people or 
+  whatever)?
+2. Compare the test data to training data - are they similar enough?  
+
+### Uploads model being used
+
+#### Why?
+
+This allows for the model to be scrutinized. Hypothetically, you can validate 
+any test results once you have the test data and model. The feature importance 
+can be measured. Also, you can start to see how each feature influences the 
+model. 
+
+Questions: 
+
+1. What legal concerns are there here? 
+2. How do I ensure security?  
+
+Needs (gaps in my abilities): 
+
+1. Legal expertise on model transfer  
+2. Security expertise on model transfer  
+3. Engineering expertise on model transfer  
+
+#### What happens?
+
+1. Evaluate test results (if possible)
+2. Measure feature importance
+3. Evaluate features for bias (may already happen in the data step)
+4. Create shapley values (for model explainability)
+5. Rebuild the model with fairness as the target
