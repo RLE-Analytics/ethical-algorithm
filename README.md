@@ -1,5 +1,50 @@
 # Ethical Algorithms
 
+## New Jawn
+
+Surveying applicants and users to see how they've been "treated" in the normal 
+course of business. This will reveal firstly how "fair" the algorithm is. 
+Secondly, it will provide a wealth of demographic data for marketing purposes 
+(for example, if you set up a bank to serve a particular community, are they 
+actually the ones coming to your system?). Need to establish trust. Need to 
+establish that the survey matters. Need to make the survey frictionless. You 
+could use this data in concert with marketing to see how new campaigns are 
+changing the demographic. 
+
+Issues: 
+
+1. This doesn't help build the algorithm fair in the first place. 
+2. Bad actors could manipulate the peoples responses. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Brainstorming Questions
 
 Question: What are we talking about?  
